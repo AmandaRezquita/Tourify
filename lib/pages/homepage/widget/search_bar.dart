@@ -7,7 +7,7 @@ class TSearchBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(top: 20, left: 5, right: 25),
+      margin: const EdgeInsets.only(top: 20, left: 25, right: 25),
       height: 55,
       width: double.infinity,
       decoration: BoxDecoration(
@@ -18,7 +18,7 @@ class TSearchBar extends StatelessWidget {
             hintText: "Search more...",
             suffixIcon: Icon(
               Icons.search,
-              size: 30,
+              size: 32,
             ),
             suffixIconColor: MyColors.icnLocation,
             border: UnderlineInputBorder(borderSide: BorderSide.none)),

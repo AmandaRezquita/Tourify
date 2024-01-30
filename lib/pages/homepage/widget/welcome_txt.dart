@@ -7,7 +7,7 @@ class WelcomeTxt extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(left: 10, top: 20),
+      margin: const EdgeInsets.only(left: 30, top: 20),
       width: 270,
       child: const Text("Welcome to Bali in Indonesia!",
           style: TextStyle(

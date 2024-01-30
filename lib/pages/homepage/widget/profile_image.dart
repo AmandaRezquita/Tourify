@@ -7,19 +7,19 @@ class ProfileImgWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.only(right: 25.0),
-      height: 55,
-      width: 55,
+      height: 50,
+      width: 50,
       decoration: BoxDecoration(
           image: const DecorationImage(
               image: NetworkImage(
-                  'https://i.pinimg.com/564x/d0/83/ea/d083eab301d8e7384d8ead5a38a60086.jpg'),
+                  'https://i.pinimg.com/736x/2e/e5/69/2ee569149513849b2fbb4c454ec13ae1.jpg'),
               fit: BoxFit.cover),
           boxShadow: [
             BoxShadow(
-              color: Colors.grey.withOpacity(0.5),
-              spreadRadius: 5,
-              blurRadius: 8,
-              offset: const Offset(0, 5),
+              color: Colors.black87.withOpacity(0.5),
+              spreadRadius: 1,
+              blurRadius: 5,
+              offset: const Offset(0, 3),
             ),
           ],
           borderRadius: BorderRadius.circular(15)),

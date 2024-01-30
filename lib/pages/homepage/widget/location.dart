@@ -11,7 +11,7 @@ class LocationWidget extends StatelessWidget {
       width: 150,
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10), color: MyColors.neonOpacity),
-      margin: const EdgeInsets.only(left: 15.0),
+      margin: const EdgeInsets.only(left: 35.0),
       child: const Row(
         children: [
           SizedBox(
